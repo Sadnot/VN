@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Du lịch Việt Nam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="video-wrapper">
+        <header>
+            <div class="header">
+                <div id="logo">
+                    <a href="trangchu.html">
+                        <img src="./assets/img/logo.jpg" alt="">
+                    </a>
+                </div>
+                <div class="nav">
+                    <a href="#">
+                        <div class="nav-link">
+                            Trang chủ
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="nav-link">
+                            Điểm đến
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="nav-link">
+                            Tư vấn
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="nav-link">
+                            Tin tức
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="nav-link">
+                            Liên hệ
+                        </div>
+                    </a>
+                </div>
+    
+                <!-- <div class="social">
+                    <a href="#">
+                        <span class="social-item">
+                            <i class="fa-brands fa-instagram"></i>
+                        </span>
+                    </a>
+                    <a href="#">
+                        <span class="social-item">
+                            <i class="fa-brands fa-youtube-square"></i>
+                        </span>
+                    </a>
+                    <a href="#">
+                        <span class="social-item">
+                            <i class="fa-brands fa-pinterest-p"></i>
+                        </span>
+                    </a>
+                    <a href="#">
+                        <span class="social-item">
+                            <i class="fa-brands fa-twitter-square"></i>
+                        </span>
+                    </a>
+                    <a href="#">
+                        <span class="social-item">
+                            <i class="fa-brands fa-spotify"></i>
+                        </span>
+                    </a>
+                </div> -->
+    
+                <form action="diemden.html" method="get" id="region-form" name="region" target="_blank" enctype="multipart/form-data">
+                    <input type="text" class="region-inp" placeholder="Search..." autocomplete="off" name="search-btn" value=""/>
+                    <button type="submit" id="submit-btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+        </header>
+        <video autoplay loop muted id="video">
+            <source type="video/mp4" src="./assets/video/y2mate.com - Welcome to Vietnam_1080p.mp4">
+        </video>
+    </div>
+
+    <div class="container">
+        <div class="container-desc">
+            <div class="container-title">
+                <h1>Sống những trải nghiệm khó quên</h1>
+            </div>
+            <div class="container-text">
+                <p>Với nền ẩm thực độc đáo, nền văn hóa phong phú, một số bãi biển đẹp nhất thế giới, đồi núi hiểm trở và cuộc 
+                    phiêu lưu mạo hiểm theo sở thích của mọi người, tất cả những gì bạn phải làm là chọn loại hình du lịch hoàn hảo 
+                    cho mình và ngạc nhiên trước những kỳ quan của Việt Nam.</p>
+            </div>
+        </div>
+
+        <div class="grid-container__2-2">
+            <div class="grid-item">
+                <img src="https://images.pexels.com/photos/358457/pexels-photo-358457.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="grid-item__img">
+                <div class="travel-type">
+                    <h2>Hoạt động ngoài trời</h2>
+                    <a href="#">
+                        <button>Chi tiết</button>
+                    </a>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="https://images.pexels.com/photos/7216800/pexels-photo-7216800.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="grid-item__img">
+                <div class="travel-type">
+                    <h2>Văn hóa</h2>
+                    <a href="#">
+                        <button>Chi tiết</button>
+                    </a>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="https://images.pexels.com/photos/8467686/pexels-photo-8467686.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="grid-item__img">
+                <div class="travel-type">
+                    <h2>Ẩm thực</h2>
+                    <a href="#">
+                        <button>Chi tiết</button>
+                    </a>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="https://images.pexels.com/photos/6531913/pexels-photo-6531913.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="grid-item__img">
+                <div class="travel-type">
+                    <h2>Biển và gió</h2>
+                    <a href="#">
+                        <button>Chi tiết</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-desc">
+            <div class="container-title">
+                <h1>Những điểm đến tuyệt vời, thú vị</h1>
+            </div>
+            <div class="container-text">
+                <p>Việt Nam có những nơi tuyệt vời trải dài khắp 63 tỉnh thành. 
+                    Những điểm đến tuyệt vời của chúng tôi đã sẵn sàng cho chuyến thăm của bạn.</p>
+            </div>
+        </div>
+
+        <div class="grid-container__4-2">
+            <div class="grid-item__4-2">
+                <a href="#">
+                    <img src="https://images.pexels.com/photos/6711298/pexels-photo-6711298.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="grid-item__img">
+                    <div class="img-desc">
+                        <h2>Hội An</h2>
+                        <h3>Đọc Thêm</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-item__4-2">
+                <a href="#">
+                    <img src="https://images.pexels.com/photos/8942812/pexels-photo-8942812.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="grid-item__img">
+                <div class="img-desc">
+                    <h2>Đà Lạt</h2>
+                    <h3>Đọc Thêm</h3>
+                </div>
+                </a>
+            </div>
+            <div class="grid-item__4-2">
+                <a href="#">
+                    <img src="https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="grid-item__img">
+                <div class="img-desc">
+                    <h2>Đà Nẵng</h2>
+                    <h3>Đọc Thêm</h3>
+                </div>
+                </a>
+            </div>
+            <div class="grid-item__4-2">
+                <a href="#">
+                    <img src="https://images.pexels.com/photos/10572502/pexels-photo-10572502.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="grid-item__img">
+                <div class="img-desc">
+                    <h2>Hải Phòng</h2>
+                    <h3>Đọc Thêm</h3>
+                </div>
+                </a>
+            </div>
+            <div class="grid-item__4-2">
+                <a href="#">
+                    <img src="https://images.pexels.com/photos/7787873/pexels-photo-7787873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="grid-item__img">
+                <div class="img-desc">
+                    <h2>An Giang</h2>
+                    <h3>Đọc Thêm</h3>
+                </div>
+                </a>
+            </div>
+            <div class="grid-item__4-2">
+                <a href="#">
+                    <img src="https://images.pexels.com/photos/3545385/pexels-photo-3545385.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="grid-item__img">
+                <div class="img-desc">
+                    <h2>Nha Trang</h2>
+                    <h3>Đọc Thêm</h3>
+                </div>
+                </a>
+            </div>
+            <div class="grid-item__4-2">
+                <a href="#">
+                    <img src="https://images.pexels.com/photos/1056497/pexels-photo-1056497.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="grid-item__img">
+                <div class="img-desc">
+                    <h2>Phú Quốc</h2>
+                    <h3>Đọc Thêm</h3>
+                </div>
+                </a>
+            </div>
+            <div class="grid-item__4-2">
+                <a href="#">
+                    <img src="https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="grid-item__img">
+                <div class="img-desc">
+                    <h2>SaPa</h2>
+                    <h3>Đọc Thêm</h3>
+                </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="nav-page">
+            <a href="#">
+                <i class="fa-solid fa-angle-left"></i>
+            </a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            ...
+            <a href="#">
+                <i class="fa-solid fa-angle-right"></i>
+            </a>
+        </div>
+
+        <div class="container-desc">
+            <div class="container-title">
+                <h1>Du lịch vòng quanh Việt Nam</h1>
+            </div>
+            <div class="container-text margin-text">
+                <p>Tất cả thông tin cần thiết cho chuyến đi vòng quanh Việt Nam của bạn đều có ở đây..</p>
+            </div>
+        </div>
+
+        <div class="container-connect grid__container-connect">
+            <div class="container-connect__list">
+                <div class="container-connect__item">
+                    <a href="" class="container-connect__item-link">
+                        <i class="container-connect-icon fas fa-hospital-symbol"></i>
+                        <span class="container-connect__text">Sức khỏe</span>
+                    </a>
+                </div>
+                <div class="container-connect__item--separate"></div>
+                <div class="container-connect__item">
+                    <a href="" class="container-connect__item-link">
+                        <i class="container-connect-icon fa-solid fa-lock"></i>
+                        <span class="container-connect__text">Bảo mật</span>
+                    </a>
+                </div>
+                <div class="container-connect__item--separate"></div>
+                <div class="container-connect__item">
+                    <a href="" class="container-connect__item-link">
+                        <i class="container-connect-icon fa-solid fa-file"></i>
+                        <span class="container-connect__text">Visas và giấy thông hành</span>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="container-connect__list">
+                <div class="container-connect__item">
+                    <a href="" class="container-connect__item-link">
+                        <i class="container-connect-icon fa-solid fa-phone"></i>
+                        <span class="container-connect__text">Số khẩn cấp</span>
+                    </a>
+                </div>
+                <div class="container-connect__item--separate"></div>
+                <div class="container-connect__item">
+                    <a href="" class="container-connect__item-link">
+                        <i class="container-connect-icon fa-solid fa-bolt"></i>
+                        <span class="container-connect__text">Điện áp</span>
+                    </a>
+                </div>
+                <div class="container-connect__item--separate"></div>
+                <div class="container-connect__item">
+                    <a href="" class="container-connect__item-link">
+                        <i class="container-connect-icon fa-solid fa-cloud-rain"></i>
+                        <span class="container-connect__text">Thời tiết</span>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="container-connect__list">
+                <div class="container-connect__item">
+                    <a href="" class="container-connect__item-link">
+                        <i class="container-connect-icon fa-solid fa-mobile"></i>
+                        <span class="container-connect__text">Viễn thông</span>
+                    </a>
+                </div>
+                <div class="container-connect__item--separate"></div>
+                <div class="container-connect__item">
+                    <a href="" class="container-connect__item-link">
+                        <i class="container-connect-icon fa-solid fa-language"></i>
+                        <span class="container-connect__text">Ngôn ngữ</span>
+                    </a>
+                </div>
+                <div class="container-connect__item--separate"></div>
+                <div class="container-connect__item">
+                    <a href="" class="container-connect__item-link">
+                        <i class="container-connect-icon fa-solid fa-coins"></i>
+                        <span class="container-connect__text">Tiền tệ và tỉ giá hối đoái</span>
+                    </a>
+                </div>
+            </div> 
+        </div>
+        <button class="container-btn__read-more">
+            Xem thêm
+        </button>
+
+        <div class="container-visit">
+            <h2 class="container-visit__header">
+                @VietNamTravel
+            </h2>
+            <div class="container-visit__content grid grid__container-visit">
+                <div class="container-visit__item">
+                    <img src="./assets/img/visit/img9.jpeg" alt="" class="container-visit--img">
+                    <span class="container-visit__time">
+                        <i class="fa-solid fa-clock"></i>
+                        Tháng 1
+                    </span>
+                    <div class="container-visit__icon">
+                        <i class="container-visit__icon--size fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="container-visit__item">
+                    <img src="./assets/img/visit/img10.jpeg" alt="" class="container-visit--img">
+                    <span class="container-visit__time">
+                        <i class="fa-solid fa-clock"></i>
+                        Tháng 2
+                    </span>
+                    <div class="container-visit__icon">
+                        <i class="container-visit__icon--size fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="container-visit__item">
+                    <img src="./assets/img/visit/img3.jpeg" alt="" class="container-visit--img">
+                    <span class="container-visit__time">
+                        <i class="fa-solid fa-clock"></i>
+                        Tháng 3
+                    </span>
+                    <div class="container-visit__icon">
+                        <i class="container-visit__icon--size fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="container-visit__item">
+                    <img src="./assets/img/visit/img4.jpeg" alt="" class="container-visit--img">
+                    <span class="container-visit__time">
+                        <i class="fa-solid fa-clock"></i>
+                        Tháng 4
+                    </span>
+                    <div class="container-visit__icon">
+                        <i class="container-visit__icon--size fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="container-visit__item">
+                    <img src="./assets/img/visit/img5.jpeg" alt="" class="container-visit--img">
+                    <span class="container-visit__time">
+                        <i class="fa-solid fa-clock"></i>
+                        Tháng 5
+                    </span>
+                    <div class="container-visit__icon">
+                        <i class="container-visit__icon--size fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="container-visit__item">
+                    <img src="./assets/img/visit/img6.jpeg" alt="" class="container-visit--img">
+                    <span class="container-visit__time">
+                        <i class="fa-solid fa-clock"></i>
+                        Tháng 6
+                    </span>
+                    <div class="container-visit__icon">
+                        <i class="container-visit__icon--size fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="container-visit__item">
+                    <img src="./assets/img/visit/img7.jpeg" alt="" class="container-visit--img">
+                    <span class="container-visit__time">
+                        <i class="fa-solid fa-clock"></i>
+                        Tháng 7
+                    </span>
+                    <div class="container-visit__icon">
+                        <i class="container-visit__icon--size fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="container-visit__item">
+                    <img src="./assets/img/visit/img8.jpeg" alt="" class="container-visit--img">
+                    <span class="container-visit__time">
+                        <i class="fa-solid fa-clock"></i>
+                        Tháng 8
+                    </span>
+                    <div class="container-visit__icon">
+                        <i class="container-visit__icon--size fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+           <div class="container-visit__follow">
+                <a href="" class="btn container-visit__load-more">
+                    <span class="container-visit__follow-text">Tải thêm...</span>
+                </a>
+                <a href="" class="btn container-visit__follow">
+                    <i class="fa-brands fa-instagram ontainer-visit__icon--distance"></i>
+                    <span class="container-visit__follow-text">Theo dõi Instagram</span>
+                </a>
+           </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="grid__footer grid">
+            <div class="footer__logo">
+                <a href="trangchu.html">
+                    <img src="./assets/img/logo.jpg" alt="" class="footer__logo-img">
+                </a>
+            </div>
+            <div class="footer__site">
+                <span>Địa điểm</span>
+                <ul class="footer__site-list">
+                    <li class="footer__site-item">Kinh nghiệm</li>
+                    <li class="footer__site-item">Điểm đến</li>
+                    <li class="footer__site-item">Khu vực</li>
+                    <li class="footer__site-item">Thông tin du lịch</li>
+                </ul>
+            </div>
+            <div class="footer__follow">
+                <span class="footer__follow-text">
+                    Theo dõi chúng tôi
+                </span>
+                <ul class="footer__follow-icon-list">
+                    <li class="footer__follow-icon-item footer__follow-icon-item--facebook">
+                        <a href="" class="footer__follow-icon-link">
+                            <i class="footer__follow-icon fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="footer__follow-icon-item footer__follow-icon-item--twitter">
+                        <a href="" class="footer__follow-icon-link">
+                            <i class="footer__follow-icon fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="footer__follow-icon-item footer__follow-icon-item--youtube">
+                        <a href="" class="footer__follow-icon-link">
+                            <i class="footer__follow-icon fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="footer__follow-icon-list">
+                    <li class="footer__follow-icon-item footer__follow-icon-item--spotify">
+                        <a href="" class="footer__follow-icon-link">
+                            <i class="fa-brands fa-spotify"></i>
+                        </a>
+                    </li>
+                    <li class="footer__follow-icon-item footer__follow-icon-item--instagram">
+                        <a href="" class="footer__follow-icon-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="footer__follow-icon-item footer__follow-icon-item--messenger">
+                        <a href="" class="footer__follow-icon-link">
+                            <i class="fa-brands fa-facebook-messenger"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="div1"></div>
+        </div>
+    </footer>
+</body>
+</html>
